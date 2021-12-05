@@ -1,0 +1,48 @@
+{
+  "name": "ride-covid19",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "build": "webpack -p",
+    "watch": "webpack --watch"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.9.2",
+    "@waves.exchange/provider-web": "^0.2.1",
+    "@waves/signer": "^0.1.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.2",
+    "sanitize-html": "^1.23.0",
+    "webpack": "^4.42.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "babel-polyfill": "^6.26.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "description": "This web application was developped with educational purpose in mind to demonstrate how easy it is to develop a web app integrating Waves Blockchain.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopheSeeka/cov-stats.git"
+  },
+  "keywords": [
+    "covid",
+    "stats"
+  ],
+  "author": "Nishant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christopheSeeka/cov-stats/issues"
+  },
+  "homepage": "https://github.com/christopheSeeka/cov-stats#readme"
+}
