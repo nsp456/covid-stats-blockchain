@@ -1,24 +1,10 @@
-# cov-stats
-
-This web application was developped with educational purpose in mind to demonstrate how easy it is to develop a web app integrating Waves Blockchain. 
-
-You can deploy your own version by following the described steps here or simply use it with our online version at https://cov-stats.sign-web.app
+# covid-stats-blockchain
 
 ## Installation
 
 ```
-git clone https://github.com/christopheSeeka/cov-stats.git
+git clone https://github.com/nsp456/covid-stats-blockchain.git
 npm install
-```
-
-Copy settings.js.sample and rename it into settings.js then edit the following:
-
-```
-this.network = "T"
-this.nodeURL = "https://nodes-testnet.wavesnodes.com"
-this.providerUrl = "https://testnet.waves.exchange/signer/"
-this.userAddress = "3NBSNZiKU3h51dyTyMGX2sPdPfyjqBKf2F4"
-this.dappAddress = "3NBbHi3Vj5yt37Yv9XZtfwMy7KnZUWSY3uM"
 ```
 
 **network**\
@@ -34,7 +20,7 @@ is the provider used with Waves Signer to signer your transactions, https://test
 is the address of your Waves account, the account you use to add data into the dApp storage
 
 **dappAddress**\
-is the dApp address, the account where you deployed the smart contract and where the data will be stored, if you want use our public dApp just use 3NBbHi3Vj5yt37Yv9XZtfwMy7KnZUWSY3uM for testnet and ********************************* for mainnet
+is the dApp address, the account where you deployed the smart contract and where the data will be stored
 
 ## Deploy the smart contract
 
@@ -72,4 +58,3 @@ You are now connected with your new account with the address displayed on top, c
 You can now configure the page and start add entries (make sure to have some waves on this account too)
 
 You can acces your page at localhost:3000
-# covid-stats-blockchain
